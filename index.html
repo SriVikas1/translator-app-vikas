@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       textarea {
+           width: 80%;
+           height: 10vh;
+           display: block;
+           margin: 1rem;
+           padding: 1rem;
+       } 
+       
+    </style>
     <title>translation</title>
 </head>
 <body>
-    <button id="btn-translate" > Translate </button>
+    
+    <textarea id="txt-input" placeholder="Put the sentence in English and it will convert it into Banana"></textarea>
+
+    <button id="btn-translate">Translate</button>
+
+    <textarea id="txt-output"></textarea>
 
     <script src="app.js" type="text/javascript">
 
